@@ -104,6 +104,12 @@ Changed files in your working directory.
 git status
 ```
 
+Check multiple directories for status
+
+```
+find . -name .git -execdir git rev-parse --show-toplevel \; -execdir git status -s \;
+```
+
 Changes in tracked files.
 
 ```
