@@ -3,12 +3,13 @@
 
 ## Cheat Sheets
 
--   [dnf (new centOS, Redhat, Fedora)](./cheatsheets/dnf.md)
+-   [dnf](./cheatsheets/dnf.md)
 -   [git](./cheatsheets/git.md)
 -   [journalctl](./cheatsheets/journalctl.md)
 -   [systemd](./cheatsheets/systemd.md)
 -   [systemctl](./cheatsheets/systemctl.md)
--   [yum (older centOS, Redhat, Fedora)](./cheatsheets/yum.md)
+-   [user & groups](./cheatsheets/user_groups.md)
+-   [yum](./cheatsheets/yum.md)
 -   [zypper (SLE & opensuse)](./cheatsheets/zypper.md)
 
 ## Upcoming Cheat Sheets
