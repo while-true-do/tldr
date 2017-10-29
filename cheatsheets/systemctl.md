@@ -1,4 +1,4 @@
-# systemctl Cheat Sheet
+# Cheat Sheet: systemctl
 | If you are using systemd, you should know some commands about systemctl.
 
 Status of a unit

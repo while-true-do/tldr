@@ -1,4 +1,4 @@
-# User and groups - Cheat Sheet
+# Ceat Sheet: User and groups
 
 | Some help to create / edit / manipulate local users.
 

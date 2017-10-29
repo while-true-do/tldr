@@ -1,4 +1,4 @@
-# systemd Cheat Sheet
+# Cheat Sheet: systemd
 | Systemd is the new way, to start and maintain your system.
 
 Show some Systemd Stats (Time)

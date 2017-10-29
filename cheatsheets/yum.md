@@ -1,4 +1,4 @@
-# yum (centOS, Redhat, Fedora) Cheat Sheet
+# Cheat Sheet: yum (centOS, Redhat, Fedora)
 
 | Yum is the common package manager in centOS, Redhat and Fedora <23.
 

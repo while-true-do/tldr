@@ -1,4 +1,4 @@
-# dnf (centOS, Redhat, Fedora) Cheat Sheet
+# Cheat Sheet: dnf (centOS, Redhat, Fedora)
 
 | dnf is the new package manager in centOS, Redhat and Fedora 23+.
 

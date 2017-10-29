@@ -1,4 +1,4 @@
-# journalctl Cheat Sheet
+# Cheat Sheet: journalctl
 | If you are using systemd, you should know some commands about journalctl.
 
 Show Log

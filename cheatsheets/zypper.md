@@ -1,4 +1,4 @@
-# zypper (SLE & opensuse) Cheat Sheet
+# Cheaht Sheet: zypper (SLE & opensuse) 
 
 | Zypper is the common package manager in Opensuse and SuSE Linux Enterprise (SLES).
 
