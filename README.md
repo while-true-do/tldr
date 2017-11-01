@@ -3,6 +3,7 @@
 
 ## Cheat Sheets
 
+-   [ansible](./cheatsheets/ansible.md)
 -   [dnf](./cheatsheets/dnf.md)
 -   [git](./cheatsheets/git.md)
 -   [journalctl](./cheatsheets/journalctl.md)
@@ -14,7 +15,6 @@
 
 ## Upcoming Cheat Sheets
 
-- ansible
 - apt
 - file operations
 - tmux
