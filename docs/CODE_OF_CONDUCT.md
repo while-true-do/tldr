@@ -1,11 +1,11 @@
 # Code of Conduct
 | While True Do Code of Conduct
 
-This guideline is only a snapshot. Please have a look [here](https://github.com/while-true-do/community/docs/) to check the latest version.
+This guideline is only a snapshot. Please have a look [here](https://github.com/while-true-do/community/tree/master/docs) to check the latest version.
 
 ## Welcome
 
-Welcome to While True Do. Thank you so much for considering to participate to our community and projects.
+Thank you so much for considering to contribute. Every contribution helps us. We are really happy, when somebody is joining the hard work.
 
 In this document you can find some guidance how we take care and what we expect from our maintainers and contributors.
 
@@ -31,7 +31,6 @@ Examples of behaviour that contributes to creating a positive environment:
 -   Showing empathy towards other community members
 
 Examples of unacceptable behaviour by participants:
-
 
 -   The use of sexualized language or imagery and unwelcome sexual attention or advances
 -   Trolling, insulting/derogatory comments, and personal or political attacks

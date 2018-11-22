@@ -1,8 +1,8 @@
 #!/bin/bash
 #
 # Description:
-#   update-skeleton.sh is a very minimal script to update the skeleton with 
-#   some additional content from while-true-do.org. It will not remove files, 
+#   update-skeleton.sh is a very minimal script to update the skeleton with
+#   some additional content from while-true-do.org. It will not remove files,
 #   you created. Replacement must be acknowledged.
 
 function usage {
@@ -21,18 +21,18 @@ echo "####################################################"
 }
 
 # Variables
-WTD_SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+WTD_SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 WTD_DOC_PATH="https://raw.githubusercontent.com/while-true-do/community/master/docs"
-WTD_DOC_FILES=( "COMMIT_TEMPLATE.md" "CONTRIBUTING.md" "ISSUE_TEMPLATE.md" "PULL_REQUEST_TEMPLATE.md" "CODE_OF_CONDUCT.md")
+WTD_DOC_FILES=("COMMIT_TEMPLATE.md" "CONTRIBUTING.md" "ISSUE_TEMPLATE.md" "PULL_REQUEST_TEMPLATE.md" "CODE_OF_CONDUCT.md")
 
 # FIXME: Repo for meta files?
 WTD_META_PATH="https://raw.githubusercontent.com/while-true-do/ansible-galaxy-skeleton/master/dist/"
-WTD_META_FILES=( ".editorconfig" ".gitignore" "LICENSE" )
+WTD_META_FILES=(".editorconfig" ".gitignore" "LICENSE")
 
 # FIXME: Repo for test suite needed?
 WTD_TEST_PATH="https://raw.githubusercontent.com/while-true-do/ansible-galaxy-skeleton/master/dist/tests/"
-WTD_TEST_FILES=( ".aspell.en.pws" "test-ansible.sh" "test-spelling.sh" )
+WTD_TEST_FILES=(".aspell.en.pws" "test-ansible.sh" "test-spelling.sh" "test-whitespace.sh")
 
 # Functions
 
@@ -90,7 +90,7 @@ function update_all {
 }
 
 while getopts 'admst' opts; do
-  
+
   case "${opts}" in
     a) update_all ;;
     d) update_docs ;;

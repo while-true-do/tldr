@@ -1,8 +1,7 @@
 # Contribution Code
 | While True Do Contribution Guidelines
 
-
-This guideline is only a snapshot. Please have a look [here](https://github.com/while-true-do/community/docs/) to check the latest version.
+This guideline is only a snapshot. Please have a look [here](https://github.com/while-true-do/community/blob/master/docs/CONTRIBUTING.md) to check the latest version.
 
 ## Welcome
 
@@ -17,7 +16,7 @@ In this document you can find some guidance, how you can take care of bugs, subm
 -   [Submit Changes and Pull Requests](#Submit-Changes-and-Pull-Requests)
 -   [Documentation](#Documentation)
 -   [Testing](#Testing)
-  
+
 ## Resources
 
 -   Documents: <https://github.com/while-true-do/community/>
