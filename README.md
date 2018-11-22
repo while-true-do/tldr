@@ -9,20 +9,22 @@ In most cases a manpage or documentation can help a ton. But sometimes, you only
 
 -   [ansible](./cheatsheets/ansible.md)
 -   [dnf](./cheatsheets/dnf.md)
+- [ ] [file operations](./cheatsheets/file-operations.md)
 -   [git](./cheatsheets/git.md)
 -   [journalctl](./cheatsheets/journalctl.md)
 -   [system information](./cheatsheets/system-info.md)
 -   [systemd](./cheatsheets/systemd.md)
 -   [systemctl](./cheatsheets/systemctl.md)
 -   [user & groups](./cheatsheets/user_groups.md)
--   [yum](./cheatsheets/yum.md)
+- [ ] [virsh](./cheatsheets/virsh.md)
+- [ ] [virt-install](./cheatsheets/virt-install.md)
+-   [yum (CentOS & RedHat)](./cheatsheets/yum.md)
 -   [zypper (SLE & opensuse)](./cheatsheets/zypper.md)
 
 ## Upcoming Cheat Sheets
 
 - [ ] apt
 - [ ] disk management
-- [ ] file operations
 - [ ] process management
 - [ ] screen
 - [ ] tmux
@@ -31,13 +33,6 @@ In most cases a manpage or documentation can help a ton. But sometimes, you only
 ## Testing
 
 All tests are located in [test directory](./tests/).
-
-Basic testing:
-
-```
-bash ./tests/test-spelling.sh
-bash ./tests/test-ansible.sh
-```
 
 ## Contribute / Bugs
 
