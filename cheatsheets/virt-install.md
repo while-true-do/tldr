@@ -12,7 +12,7 @@ You have to install *virt-install*.
 sudo apt-get update && sudo apt-get install virt-install
 ```
 
-### Redhat/CentOS
+### Redhat/CentOS/Fedora
 
 If you are using the good ol' yum.
 
@@ -56,4 +56,3 @@ virt-install \
 ```
 
 For the `--extra-args` you can use kickstart configurations for example. YOu can find additional information for kickstart in [this repository](https://github.com/while-true-do/kickstart).
-

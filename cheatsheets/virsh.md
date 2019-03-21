@@ -1,6 +1,6 @@
 # Cheat Sheet: virsh
 
-| Virsh is the command line interface for libvirt. 
+| Virsh is the command line interface for libvirt.
 
 ## Installation
 
@@ -12,7 +12,7 @@ In most distributions it is installed with libvirt.
 sudo apt-get update && sudo apt-get install libvirt
 ```
 
-### Redhat/CentOS
+### Redhat/CentOS/Fedora
 
 If you are using the good ol' yum.
 
