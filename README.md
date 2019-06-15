@@ -7,10 +7,10 @@ license: BSD-3-Clause
 -->
 
 <!-- github shields -->
-[![Github (tag)](https://img.shields.io/github/tag/while-true-do/ansible-skeleton.svg)](https://github.com/while-true-do/ansible-skeleton/tags)
-[![Github (license)](https://img.shields.io/github/license/while-true-do/ansible-skeleton.svg)](https://github.com/while-true-do/ansible-skeleton/blob/master/LICENSE)
-[![Github (issues)](https://img.shields.io/github/issues/while-true-do/ansible-skeleton.svg)](https://github.com/while-true-do/ansible-skeleton/issues)
-[![Github (pull requests)](https://img.shields.io/github/issues-pr/while-true-do/ansible-skeleton.svg)](https://github.com/while-true-do/ansible-skeleton/pulls)
+[![Github (tag)](https://img.shields.io/github/tag/while-true-do/ansible-skeleton.svg)](https://github.com/while-true-do/tldr/tags)
+[![Github (license)](https://img.shields.io/github/license/while-true-do/ansible-skeleton.svg)](https://github.com/while-true-do/tldr/blob/master/LICENSE)
+[![Github (issues)](https://img.shields.io/github/issues/while-true-do/ansible-skeleton.svg)](https://github.com/while-true-do/tldr/issues)
+[![Github (pull requests)](https://img.shields.io/github/issues-pr/while-true-do/ansible-skeleton.svg)](https://github.com/while-true-do/tldr/pulls)
 
 # tldr
 
@@ -68,8 +68,8 @@ This repository is not tested.
 
 Thank you so much for considering to contribute. We are very happy, when somebody
 is joining the hard work. Please fell free to open
-[Bugs, Feature Requests](https://github.com/while-true-do/ansible-skeleton/issues)
-or [Pull Requests](https://github.com/while-true-do/ansible-role-skeleton/pulls) after
+[Bugs, Feature Requests](https://github.com/while-true-do/tldr/issues)
+or [Pull Requests](https://github.com/while-true-do/tldr/pulls) after
 reading the [Contribution Guideline](https://github.com/while-true-do/doc-library/blob/master/docs/CONTRIBUTING.md).
 
 See who has contributed already in the [kudos.txt](./kudos.txt).
