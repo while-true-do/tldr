@@ -1,5 +1,7 @@
 # Cheat Sheet: journalctl
-| If you are using systemd, you should know some commands about journalctl.
+
+If you are using systemd, journalctl will be the command line tool, you need to
+get log information.
 
 Show Log
 

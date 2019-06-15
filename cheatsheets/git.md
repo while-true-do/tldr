@@ -1,5 +1,6 @@
 # Cheat Sheet: GIT
-| A Cheat Sheet with some useful git commands.
+
+A Cheat Sheet with some useful [git](https://git-scm.com/) commands.
 
 ## Installation
 

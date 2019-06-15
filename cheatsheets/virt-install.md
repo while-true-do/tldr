@@ -1,6 +1,6 @@
 # Cheat Sheet: virt-install
 
-| virt-install is used to build and install new VMs.
+virt-install is used to build and install new VMs.
 
 ## Installation
 

@@ -1,6 +1,7 @@
 # Cheat Sheet: docker
 
-| [docker](https://www.docker.com/) is a container engine and cli tool to interact with the engine.
+[docker](https://www.docker.com/) is a container engine and cli tool to interact
+with the engine.
 
 ## Installation
 

@@ -1,5 +1,6 @@
 # Cheat Sheet: system information
-| Gathering information of your system.
+
+Gathering information of your system.
 
 ## datetime information
 
@@ -60,4 +61,3 @@ Print memory information.
 ```
 cat /proc/meminfo
 ```
-

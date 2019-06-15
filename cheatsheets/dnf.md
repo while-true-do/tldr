@@ -1,6 +1,8 @@
-# Cheat Sheet: dnf (centOS, Redhat, Fedora)
+# Cheat Sheet: DNF
 
-| dnf is the new package manager in centOS, Redhat and Fedora 23+.
+ Dandified YUM [(DNF)](https://rpm-software-management.github.io/) is the next
+ upcoming major version of YUM. It does package management using RPM, libsolv
+ and hawkey libraries.
 
 ## Install dnf
 

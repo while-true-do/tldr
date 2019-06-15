@@ -1,15 +1,25 @@
 # Cheat Sheet: Ansible
 
-| Ansible is an automation tool made simple.
+[Ansible](https://www.ansible.com) is an automation tool made simple.
 
 ## Installation
 
+### pip (distribution unspecific)
+
+```
+virtualenv <env-name>
+source <env-name>/bin/activate
+pip install ansible
+```
+
 ### Debian/Ubuntu
+
 ```
 sudo apt-get update && sudo apt-get install ansible
 ```
 
 ### CentOS/RedHat/Fedora
+
 If you are using the good ol' yum.
 ```
 sudo yum install dnf dnf-plugins-core
@@ -20,11 +30,13 @@ sudo dnf install ansible
 ```
 
 ### OpenSuSE/SLES
+
 ```
 sudo zypper ref && sudo zypper in ansible
 ```
 
 ### Arch Linux
+
 ```
 sudo pacman -S ansible
 ```
@@ -73,7 +85,7 @@ You can find an example [here](https://github.com/while-true-do/ansible-playbook
 
 Run a playbook with a given inventory
 ```
-ansible-playbook -i inventory/servers servers.yml 
+ansible-playbook -i inventory/servers servers.yml
 ```
 
 Limit the Run to a group of servers

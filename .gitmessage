@@ -1,0 +1,65 @@
+# name: .gitmessage
+# description: This file helps to write better commit messages.
+# author: while-true-do.io
+# contact: hello@while-true-do.io
+# license: BSD-3-Clause
+#
+# usage: git config commit.template .gitmessage
+#
+#<------------------------- 72 characters ---------------------------->
+#
+# Pattern:
+#
+# <tag>: <subject>
+#
+# <description>
+#
+# - <tag>: <description>
+# - <tag>: <description>
+# - <tag>: <description>
+#
+# Resolves: #<issue number>, #<issue number>
+# See also: #<issue number>, #<issue number>
+#
+#<------------------------- 72 characters ---------------------------->
+#
+# Example:
+#
+# feat: Everything OK Button
+#
+# A long requested Everything OK Button, which will help us a lot!
+#
+# - add: everything_ok.py
+# - remove: not_ok.js
+# - update: README.md
+# - update: metadata.json
+#
+# Resolves: #1234
+# See also: #4711, #666
+#
+#<------------------------- 72 characters ---------------------------->
+#
+# Explanation:
+#
+# --> TAGS
+#
+# change tags:		can be used for all changes
+# - add			a feature of file is added
+# - remove		a feature or file is removed
+# - update		a feature of file was updated
+#
+# title tags: 		only use them for the subject line
+# - doc			documentation
+# - feat		feature provided
+# - fix			bug fix, security fix
+# - refactor		most likely a re-write or re-code
+# - style		code style
+#
+# --> SUBJECT, DESCRIPTION
+#
+# What was done and why was it done?
+#
+# --> RESOLVES, SEE ALSO
+#
+# In most cases, it is mandatory to provide an issue number, which is
+# addressed.

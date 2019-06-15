@@ -1,11 +1,15 @@
 # Cheat Sheet: systemd
-| Systemd is the new way, to start and maintain your system.
+
+Systemd starts, stops and manages the system initialization.
+
+## statistics
 
 Show some Systemd Stats (Time)
 
 ```
 systemd-analyze [critical-chain|blame]
 ```
+
 ## commands
 
 control systemd units - see [systemctl](./systemctl.md)

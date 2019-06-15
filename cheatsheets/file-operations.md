@@ -1,6 +1,6 @@
 # Cheat Sheet: File Operations
 
-| Files and Directories Operations on local disks.
+Files and Directories Operations on local disks.
 
 ## Information
 

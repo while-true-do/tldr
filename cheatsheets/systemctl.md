@@ -1,5 +1,6 @@
 # Cheat Sheet: systemctl
-| If you are using systemd, you should know some commands about systemctl.
+
+If you are using systemd, systemctl will be the command line tool, you need.
 
 Status of a unit
 

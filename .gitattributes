@@ -1,0 +1,14 @@
+# name: .gitattributes
+# description: This file facilitates gitattributes.
+# author: while-true-do.io
+# contact: hello@while-true-do.io
+# license: BSD-3-Clause
+# reference: https://git-scm.com/docs/gitattributes
+
+# Ignore some files for exports / releases
+.editorconfig export-ignore
+.gitattributes export-ignore
+.gitignore export-ignore
+.gitmessages export-ignore
+/tests export-ignore
+/molecule export-ignore

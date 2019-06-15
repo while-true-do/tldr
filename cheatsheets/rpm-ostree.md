@@ -1,6 +1,6 @@
 # Cheat Sheet: rpm-ostree
 
-| [rpm-ostree](https://rpm-ostree.readthedocs.io/en/latest/) is the ostree
+[rpm-ostree](https://rpm-ostree.readthedocs.io/en/latest/) is the ostree
 manager for [Fedora Silverblue](https://silverblue.fedoraproject.org/) and
 [Fedora IOT](https://iot.fedoraproject.org/).
 

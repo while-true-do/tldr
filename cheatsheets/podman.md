@@ -1,6 +1,6 @@
 # Cheat Sheet: podman
 
-| [podman](https://podman.io/) is library and tool to run OCI-based containers.
+[podman](https://podman.io/) is library and tool to run OCI-based containers.
 
 ## Installation
 

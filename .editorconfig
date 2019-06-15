@@ -1,4 +1,9 @@
-# EditorConfig is awesome: http://EditorConfig.org
+# name: .editorconfig
+# description: This file helps to configure your editor via editorconfig.
+# author: while-true-do.io
+# contact: hello@while-true-do.io
+# license: BSD-3-Clause
+# reference: https://editorconfig.org/
 
 # top-most EditorConfig file
 root = true

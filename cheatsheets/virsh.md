@@ -1,6 +1,6 @@
 # Cheat Sheet: virsh
 
-| Virsh is the command line interface for libvirt.
+Virsh is the command line interface for libvirt.
 
 ## Installation
 

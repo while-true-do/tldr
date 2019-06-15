@@ -1,6 +1,6 @@
 # Ceat Sheet: User and groups
 
-| Some help to create / edit / manipulate local users.
+Some help to create / edit / manipulate local users and groups.
 
 ## Creation
 

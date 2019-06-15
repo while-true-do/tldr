@@ -1,6 +1,6 @@
 # Cheat Sheet: yum (centOS, Redhat, Fedora)
 
-| Yum is the common package manager in centOS, Redhat and Fedora <23.
+YUM is the common package manager in CentOS and Redhat.
 
 ## Using dnf
 
