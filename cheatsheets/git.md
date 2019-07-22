@@ -2,102 +2,102 @@
 
 A Cheat Sheet with some useful [git](https://git-scm.com/) commands.
 
-## Installation
+## Install
 
 If you don't have GIT yet, you have to install it.
 
-### Debian/Ubuntu
+### Linux
 
 ```
-sudo apt-get update && sudo apt-get install -y git
-```
+# Debian / Ubuntu
+apt-get update && apt-get install -y git
 
-### Redhat/CentOS/Fedora
+# RedHat / CentOS
+yum install git
 
-If you are using the good ol' yum.
+# Fedora
+dnf install git
 
-```
-sudo yum install -y git
-```
-
-If you are using the new dnf.
-
-```
-sudo dnf install -y git
-```
-
-### OpenSuSE/SLES
-
-```
+# OpenSuSE / SuSE Linux Enterprise
 sudo zypper ref && sudo zypper in git
-```
 
-### Arch Linux
-
-```
+# Arch Linux
 sudo pacman -S git
-```
-
-### OSX
-
-A graphical installer can be found here: <http://sourceforge.net/projects/git-osx-installer/>
-
-You can use Homebrew as well:
-
-```
-brew install git
 ```
 
 ### Windows
 
-For Windows you can use the graphical installer from: <http://msysgit.github.com/>
+```
+# Download the git client
+https://git-scm.com/download/win
+
+# or download the GitHub desktop client
+https://desktop.github.com/
+```
+
+### Mac
+
+```
+# Download the git client
+https://git-scm.com/download/mac
+
+# or download the GitHub desktop client
+https://desktop.github.com/
+```
 
 ## Configure
 
 The first thing you have to do, is to configure your GIT.
 
 ```
+# Configure User and email
 git config --global user.name  "John Doe"
 git config --global user.email "johndoe@foobar.com"
-```
 
-If you want to set the default editor from vim to something else (maybe nano):
-
-```
+# Configure your desired editor
 git config --global core.editor "nano -w"
-```
 
-You can set the push-action to the new "simple" with:
-
-```
+# Use simple push, if desired
 git config --global push.default simple
-```
 
-And change the diff-tool to something else (maybe vimdiff):
-
-```
+# Change the diff tool
 git config --global diff.tool vimdiff
+
+# Change command line coloring
+git config --global color.ui auto
 ```
 
-## Create
+## Command Sequence
+
+![git-command-sequence](./git/git-command-sequence.png)
+
+## CLI Commands
+
+### Get Help
+
+```
+git help <command>
+```
+
+### Create
 
 Hey cool, you really want to work with GIT now.
 
-You can either clone an existing repo.
+You can either clone an existing repository
 
 ```
 git clone git@domain.com/repository.git
 cd <repository>
 ```
 
-or create a new local repo for yourself.
+or create a new local repository.
 
 ```
 cd <myProjectfolder>
 git init
 ```
 
-## Local Changes
+### Get Information
 
 Changed files in your working directory.
 
@@ -117,31 +117,56 @@ Changes in tracked files.
 git diff
 ```
 
-Add all current changes to the next commit.
+Show all commits, starting with newest.
 
 ```
-git add .
+git log
 ```
 
-Add some changes in <file> to the next commit.
+Show changes over time for <file>
 
 ```
-git add <file>
+git log <file>
 ```
 
-Remove files from repo.
+Who changed what and when in <file>
+
+```
+git blame <file>
+```
+
+### Working (Directory)
+
+Remove files.
 
 ```
 git rm <file>
 ```
 
-Remove multiple files from repo, that have already been deleted from disk.
+Remove files from the local repository, which are already deleted in your
+working directory.
 
 ```
 git ls-files --deleted -z | xargs -0 git rm
 ```
 
-Commit all local changes in tracked files.
+### Staging (Index)
+
+Add all current changes to Staging.
+
+```
+git add .
+```
+
+Add a file to Staging.
+
+```
+git add <file>
+```
+
+### Local (Repository)
+
+Commit all local changes in staged files.
 
 ```
 git commit -a
@@ -161,27 +186,13 @@ Change the last commit.
 git commit --amend
 ```
 
-## Commit History
-
-Show all commits, starting with newest.
+Tag the current commit with <tag-name>.
 
 ```
-git log
+git tag <tag-name>
 ```
 
-Show changes over time for <file>
-
-```
-git log <file>
-```
-
-Who changed what and when in <file>
-
-```
-git blame <file>
-```
-
-## Branches and Tags
+### Branches and Tags
 
 List all existing branches.
 
@@ -213,13 +224,7 @@ Delete a local branch.
 git branch -d <branch>
 ```
 
-Tag the current commit with <tag-name>.
-
-```
-git tag <tag-name>
-```
-
-## Update and Publish
+### Remote (Repository)
 
 List all remotes, currently configured.
 
@@ -283,7 +288,7 @@ git push <remote> <branch>
 Delete a branch on the remote.
 
 ```
-git branch -dr <remote/branch>
+git branch -d <remote/branch>
 ```
 
 Publish your tags.
@@ -292,12 +297,25 @@ Publish your tags.
 git push --tags
 ```
 
-## Merge and Rebase
+### Merge and Rebase
 
 Merge <branch> into HEAD.
 
 ```
+# simple
 git merge <branch>
+
+# no fast forward (merge commit required)
+git merge --no-ff <branch>
+
+# squash the commits
+git merge squash <branch>
+```
+
+Rebase interactively
+
+```
+git rebase -i
 ```
 
 Rebase your current HEAD onto <branch>
@@ -325,7 +343,7 @@ git add <resolved-file>
 git rm <resolved-file>
 ```
 
-## Undo
+### Undo
 
 Discard all local changes in your working directory.
 
@@ -363,13 +381,3 @@ git reset <commit>
 ```
 git reset --keep <commit>
 ```
-
-## Help
-
-```
-git help <command>
-```
-
-## Graphical Interfaces
-
-## Tools
